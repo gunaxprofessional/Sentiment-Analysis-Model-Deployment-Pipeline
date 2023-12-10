@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sentiment Analysis</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      input {
+        margin: 10px 0;
+        padding: 10px;
+        width: 300px;
+      }
+      button {
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Sentiment Analysis</h2>
+    <form action="/predict" method="post">
+      <label for="sentence">Enter a sentence:</label>
+      <input type="text" name="sentence" id="sentence" required />
+      <button type="submit">Predict</button>
+    </form>
+    {% if sentence %}
+    <p>You entered: {{ sentence }}</p>
+    <p>Prediction: {{ prediction }}</p>
+    {% endif %}
+  </body>
+</html>
