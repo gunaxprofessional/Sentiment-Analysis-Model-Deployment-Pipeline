@@ -6,10 +6,11 @@ This project demonstrates the deployment of a sentiment analysis model using LST
 
 1. [AI Model Development](#ai-model-development)
 2. [Web Service Creation](#web-service-creation)
-3. [Containerization with Docker](#containerization-with-docker)
-4. [Deployment with Kubernetes](#deployment-with-kubernetes)
-5. [Documentation](#documentation)
-6. [Bonus Features](#bonus-features)
+3. [MySQL Database Interaction](#mysql-database-interaction)
+4. [Containerization with Docker](#containerization-with-docker)
+5. [Deployment with Kubernetes](#deployment-with-kubernetes)
+6. [Documentation](#documentation)
+7. [Bonus Features](#bonus-features)
 
 ## AI Model Development
 
@@ -22,6 +23,18 @@ The sentiment analysis model is developed using LSTM, achieving an accuracy of 8
 ## Web Service Creation
 
 A web service is implemented in Python using Flask to serve the sentiment analysis model. The service exposes an API endpoint allowing users to submit text snippets and receive model predictions. The service logs prediction requests and results in a MySQL database hosted on AWS RDS.
+
+## MySQL Database Interaction
+
+For MySQL database interaction, the user needs to enter the following details:
+
+- Host
+- User
+- Password
+- Database Name
+
+Use the `sql.py` Python file to retrieve information from the database.
+
 
 ## Containerization with Docker
 
