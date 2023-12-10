@@ -15,6 +15,10 @@ This project demonstrates the deployment of a sentiment analysis model using LST
 
 The sentiment analysis model is developed using LSTM, achieving an accuracy of 87%. Python is used as the programming language, and TensorFlow serves as the machine learning framework.
 
+**Note:** To obtain the model pickle file (sentiment_model.h5), run the notebook.ipynb provided in the repository.
+
+
+
 ## Web Service Creation
 
 A web service is implemented in Python using Flask to serve the sentiment analysis model. The service exposes an API endpoint allowing users to submit text snippets and receive model predictions. The service logs prediction requests and results in a MySQL database hosted on AWS RDS.
