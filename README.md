@@ -2,6 +2,10 @@
 
 This project demonstrates the deployment of a sentiment analysis model using LSTM, a web service, and a deployment pipeline with Docker and Kubernetes. The sentiment analysis model is built using TensorFlow, and the web service is implemented in Python with Flask. The MySQL database is hosted on AWS RDS. Below is a comprehensive guide on setting up and running the entire system.
 
+# Demo:
+![image](https://github.com/gunaxprofessional/Sentiment-Analysis-Model-Deployment-Pipeline/assets/66107066/f1f3cc54-a910-4197-a8d1-1219c51af1f8)
+
+
 ## Table of Contents
 
 1. [AI Model Development](#ai-model-development)
