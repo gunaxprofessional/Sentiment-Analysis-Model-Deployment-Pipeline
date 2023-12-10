@@ -8,10 +8,10 @@ import mysql.connector
 app = Flask(__name__)
 
 # Replace these with your actual database credentials
-DB_HOST = "ecommerce.ch0s2ra5njdh.us-east-2.rds.amazonaws.com"
-DB_USER = "admin"
-DB_PASSWORD = "admin123"
-DB_NAME = "ecommerce"
+DB_HOST = ""
+DB_USER = ""
+DB_PASSWORD = ""
+DB_NAME = ""
 
 # Establish a connection to the database
 
