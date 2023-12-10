@@ -5,10 +5,10 @@ import mysql.connector
 
 def create_connection():
     connection = mysql.connector.connect(
-        host="ecommerce.ch0s2ra5njdh.us-east-2.rds.amazonaws.com",
-        user="admin",
-        password="admin123",
-        database="ecommerce"
+        host="",
+        user="",
+        password="",
+        database=""
     )
     return connection
 
