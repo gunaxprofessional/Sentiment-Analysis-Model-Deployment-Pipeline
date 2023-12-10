@@ -111,6 +111,19 @@ Follow these steps to set up and run the project:
 
    Access the service based on the external IP or NodePort provided.
 
+   **Open Kubernetes Dashboard:**
+
+     ```bash
+     minikube dashboard
+     ```
+
+   **Get Service URL:**
+      
+     ```bash
+     minikube service sentiment-analysis-service --url
+     ```	
+
+
 ### Bonus Features
 
 - **Front-End Interface:**
