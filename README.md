@@ -113,10 +113,6 @@ Follow these steps to set up and run the project:
 
 ### Bonus Features
 
-- **Basic Authentication:**
-
-  Basic authentication for the API is implemented. Users need to include authentication credentials when accessing the API.
-
 - **Front-End Interface:**
 
   A simple front-end interface is added for user interaction. Access the interface at [http://localhost:5002](http://localhost:5002).
